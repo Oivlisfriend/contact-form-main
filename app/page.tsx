@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-emerald-50 h-screen flex justify-center items-center">
+    <main className="bg-emerald-50 h-screen flex justify-center items-center">
       <form className="flex flex-col gap-5 w-80 lg:w-[36rem] xl:w-[36rem] 2xl:w-[36rem] px-6 py-8 rounded-md bg-white">
         <h1 className="font-bold text-xl">Contact Us</h1>
         <div className="flex gap-3 flex-col lg:flex-row xl:flex-row 2xl:flex">
@@ -43,6 +43,6 @@ export default function Home() {
           <button type="submit">Submit</button>
         </div>
       </form>
-    </div>
+    </main >
   );
 }
